@@ -2,7 +2,7 @@ def find_element_index(array, value_to_find)
   if array.size == 0
     return nil 
   end
-  int counter = 0 
+  counter = 0 
   while array[counter] do 
     if array[counter] == value_to_find
       return counter
